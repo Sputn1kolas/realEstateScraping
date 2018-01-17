@@ -1,0 +1,781 @@
+Address,Price,Square_feet,Beds,Baths
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
+"26 Somerside Place SW, Calgary, Alb",398888,1488,5,3
+"495 78 Ave SW, Calgary, Alb",326000,1300,2,2
+"71 Chisholm Cres NW, Calgary, Alb",679900,1248,4,2
+"104 Pump Hill Dr SW, Calgary, Alb",949900,2630,4,4
+"5200 44 Ave NE, Calgary, Alb",219900,513,2,2
+"3774 DOUGLAS RIDGE LINK SE, Calgary, Alb",427900,720,3,2
+"175 Whiteridge Pl NE, Calgary, Alb",274900,1044,3,1
+"209 Arbour Cliff Close NW, Calgary, Alb",369900,1047,2,3
+"100 SILVERADO SKIES MANOR SW, Calgary, Alb",569000,1186,4,3
+"201 BRAEGLEN CLOSE SW, Calgary, Alb",240000,1016,2,1
+"9 TARALEA CIRCLE NE, Calgary, Alb",359900,803,3,2
+"27 SILVER SPRINGS DRIVE NW, Calgary, Alb",412000,730,2,2
+"90 CARRINGVUE DRIVE NW, Calgary, Alb",808800,2582,4,3
+"2003 117 Ave SW, Calgary, Alb",669900,1593,5,3
+"30 MCHUGH COURT NE, Calgary, Alb",199900,850,2,1
+"28 CORAL SPRINGS CL NE, Calgary, Alb",499900,1785,4,4
+"#2214 310 McKenzie Towne GA SE, Calgary, Alb",315000,933,2,2
+"31 Country Village Manor NE, Calgary, Alb",239900,877,2,2
+"2324 24 AV SW, Calgary, Alb",999000,2073,5,4
+"6020 Bowwater Cres NW, Calgary, Alb",1095000,4476,4,3
