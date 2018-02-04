@@ -4,8 +4,6 @@ install.packages("tidyverse")
 library(tidyverse)
 library(neuralnet)
 
-
-
 housing_data <- read.csv(file = "Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/housing_data.csv")
 View(housing_data)
 # Accessory Functions -------------------------------------------------------
