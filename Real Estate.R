@@ -3,18 +3,19 @@ install_dependencies<- function(){
   install.packages("xml2")
   install.packages("stringr")
   install.packages("tidyverse")
-  devtools::install_github("r-lib/crayon")
+  devtools::install_github("r-lib/async")
+  
 }
 
 library('rvest')
 library(xml2)
 library(stringr)
 library(tidyverse)
-library(crayon) devtools::install_github("r-lib/crayon")
 
+
+# source http://economicdashboard.alberta.ca/
 
 setwd("../Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/")
-
 
 # Helper Functions
 remove_list_non_numbers <- function(data_list) {
@@ -41,7 +42,7 @@ remove_html_junk        <- function(x, keep_whitespace = FALSE) {
   p
 }
 check_empty             <- function(data) {
-  if(is_empty(data)){
+  if(purr::is_empty(data)){
     NA
   } else {
     data
@@ -85,7 +86,7 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
   results <- data.frame(Address = "", Postal_code="",  Description="", Price = "", Square_feet = "", Beds = "", Baths = "", Date_Added ="", Year_built ="", Neighbourhood="", Type_of_home="", Area_of_city = "", Lot_info = "", Id_code = "", Img_uri = "")
   
   # creates a folder to save the file, with the date, province and city
-  folder_name <- paste(Sys.Date(),"-",city,"-",short_province, sep = "")
+  folder_name <- paste("~/Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/",Sys.Date(),"-",city,"-",short_province, sep = "")
   
   if(save == TRUE){
     dir.create(folder_name)
@@ -117,7 +118,7 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
     print(paste("Scraping page",j))
     
     url <- paste('https://www.point2homes.com/CA/New-Listings/',short_province,'/',city,'.html?location=', city ,'%2C+',short_province,'&search_mode=location&page=',j,sep="")
-    address <- postal_code <-  description <- price <- square_feet <- beds <- baths <- date_added <- year_built <- neighbourhood <- type_of_home <- area_of_city <- NA
+    address <- postal_code <-  description <- price <- square_feet <- beds <- baths <- date_added <- year_built <- neighbourhood <- type_of_home <- area_of_city <- lot_info <- NA
     
     webpage <- read_html(url)
     
@@ -193,7 +194,7 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
         
         img_uri <- find_image(house_webpage)
         if(save == TRUE && length(as.character(img_uri)) >= 1){
-          download.file(as.character(img_uri), destfile = paste("./",folder_name,"/",id_code,".jpeg", sep =""), method ='curl', quiet = TRUE) 
+          # download.file(as.character(img_uri), destfile = paste("./",folder_name,"/",id_code,".jpeg", sep =""), method ='curl', quiet = TRUE)
         }
         if(length(as.character(img_uri)) < 1){
           img_uri <- NA
@@ -279,10 +280,10 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
         # print(paste("adding ", address,"---- This took:", time_elapsed, "seconds"))
         
       } 
-    }s
+    }
   }
   if(save == TRUE){
-    write.csv(results[2:nrow(results),], paste("./",folder_name,"/",folder_name,".csv", sep =""))
+    write.csv(results[2:nrow(results),], paste("~/Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/",folder_name,"/",folder_name,".csv", sep =""))
   }
   print("")
   print(paste("--------------------------------DONE!--------------------------------"))
@@ -291,5 +292,6 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
 
 housing_data <- scrape_point2home(1,40, "Calgary", "AB", TRUE)
 View(housing_data)
+
 
 # housing_data <- read.csv(file = "Google Drive/Courses/Predictive Analytics/untitled folder/housing_data.csv")
