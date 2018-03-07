@@ -79,6 +79,7 @@ convert_time <- function(time){
 
 scrape_point2home <- function(start_page, end_page, city, short_province, save = TRUE) {
   
+  
   print(paste("------------------------Finding Housing Data for ",city,"------------------------",sep=""))
   print(" ")
   
@@ -86,12 +87,17 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
   results <- data.frame(Address = "", Postal_code="",  Description="", Price = "", Square_feet = "", Beds = "", Baths = "", Date_Added ="", Year_built ="", Neighbourhood="", Type_of_home="", Area_of_city = "", Lot_info = "", Id_code = "", Img_uri = "")
   
   # creates a folder to save the file, with the date, province and city
-  folder_name <- paste("~/Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/",Sys.Date(),"-",city,"-",short_province, sep = "")
+  folder_location <- "~/Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/"
+  folder_name     <- paste(Sys.Date(),"-",city,"-",short_province, sep = "")
   
-  if(save == TRUE){
-    dir.create(folder_name)
-    print(paste("Created folder: ",folder_name,". Downloaded images and csv will save to this folder", sep = ""))
-  }
+  # DELETE
+  # results <- read.csv(paste(folder_name,".csv", sep =""))
+  results <- results[,2:ncol(results)]
+
+    # if(save == TRUE){
+  #   dir.create(folder_name)
+  #   print(paste("Created folder: ",folder_name,". Downloaded images and csv will save to this folder", sep = ""))
+  # }
   
   # this code is for estimating the time to complete
   counter       <- 1
@@ -107,40 +113,47 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
     time_remaining        <- records_remaining * average_scrape_time
     time_remaining_pretty  <-convert_time(time_remaining)
   
-    # will only print every 5 records, %% is the modulus operator in R 
-    if(counter %% 5 == 0){
+    # will only print every 200 records, %% is the modulus operator in R 
+    if(counter %% 40 == 0){
       print(paste(counter,"/",num_records," (",percent,"%) ",time_remaining_pretty," remaining. ","Total elasped time: ", total_time_elapsed, sep = ""))
+      write.csv(results[2:nrow(results),], paste(folder_name,".csv", sep =""))
     }
   }
-  
   # loops through the number of pages in the website, to extract content from each page
   for(j in start_page:end_page) {
     print(paste("Scraping page",j))
-    
-    url <- paste('https://www.point2homes.com/CA/New-Listings/',short_province,'/',city,'.html?location=', city ,'%2C+',short_province,'&search_mode=location&page=',j,sep="")
-    address <- postal_code <-  description <- price <- square_feet <- beds <- baths <- date_added <- year_built <- neighbourhood <- type_of_home <- area_of_city <- lot_info <- NA
+    j <- 1
+    city <- "montreal"
+    short_province <- "QC"
+    url <- paste('https://www.point2homes.com/CA/Real-Estate-Listings.html?location=',city,'%2C+',short_province,'&search_mode=location&page=',j,sep="")
+    # url <- paste('https://www.point2homes.com/CA/New-Listings/',short_province,'/',city,'.html?location=', city ,'%2C+',short_province,'&search_mode=location&page=',j,sep="")
     
     webpage <- read_html(url)
     
+    # This code searches through the page, and extracts all of the house ID's present.
     classes <- "#search-results-list > div > ul"
     html_nodes(webpage,classes) %>% 
     {.} -> HTML_list_containing_ids
-    id <- "id=\"l_([0-9]{8})"
-    id_full <- str_extract_all(as.character(HTML_list_containing_ids[1]), id) 
-    code <- "l_([0-9]{8})"
+    
+    id               <- "id=\"l_([0-9]{8})"
+    id_full          <- str_extract_all(as.character(HTML_list_containing_ids[1]), id) 
+    code             <- "l_([0-9]{8})"
     all_ids_on_page  <- str_extract_all(id_full,code)
-    num_ids         <- length(all_ids_on_page[[1]])
+    num_ids          <- length(all_ids_on_page[[1]])
     
     if(num_records == 0){
       num_records <- num_ids * (end_page - start_page + 1)
     }
+    
     #loops through all house ID's on page, and returns information for that ID
     for(i in 1:num_ids) {
+      # sets all values to NA, if they are not assigned later.
+      address <- postal_code <-  description <- price <- square_feet <- beds <- baths <- date_added <- year_built <- neighbourhood <- type_of_home <- area_of_city <- lot_info <- NA
+      
       start_time <- Sys.time()
       
       # Grabs  ID in the page to be used in namespacing the elements to be found
       id_code <- all_ids_on_page[[1]][i]
-      
       
       # Find the code for the img
       html_nodes(webpage, paste("#", id_code," > div.photo-cnt > div > ul > li > a > img", sep="")) %>% 
@@ -179,17 +192,20 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
         check_empty(.) %>% 
         {.} -> address
       
-      # this pattens matches any printable char [:print:], any number of times * 
-      html_pattern <- paste("/CA/Home-For-Sale/",short_province,"/",city,"/([:print:]*).html", sep = "")
+      # This searches the results page, and finds the link to the specific house page to scrape indvidually 
+      # this pattens matches any printable char [:print:], any number of times. 
+      # html_pattern <- paste("/CA/Home-For-Sale/",short_province,"/",city,"/([:print:]*).html", sep = "")
       # Link for more information
-      html_nodes(webpage, paste("#", id_code, "> div.item-right-cnt > div.item-footer > div > div.inner-right", sep="" )) %>% 
-        html_children(.) %>%
-        str_extract(., html_pattern) %>% 
+      html_nodes(webpage, paste("#", id_code, "> div.item-right-cnt > div.item-footer > div > div.inner-right > a", sep="" )) %>% 
+        html_attr(., "href") %>% 
+        # str_extract(., html_pattern) %>% 
         {.} -> pathway
-      house_url <- paste("https://www.point2homes.com", pathway[[1]], sep = "") 
       
-      #  checks if the pathway is there, if so - follows and dl associated content
+      house_url <- paste("https://www.point2homes.com", pathway[[1]], sep = "") 
+      print(house_url)
+      #  checks if the pathway to the subpage is there, if so - follows and dl associated content
       if(is.na(pathway) == FALSE && pathway != "NA" ){
+        print("hello from house_url")
         house_webpage <- read_html(house_url)
         
         img_uri <- find_image(house_webpage)
@@ -199,6 +215,17 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
         if(length(as.character(img_uri)) < 1){
           img_uri <- NA
         }
+        
+        html_nodes(house_webpage,"#details > div:nth-child(3) > div.description-full-cnt > div") %>% 
+          html_text(.) %>% 
+          check_empty(.) %>% 
+          {.} -> description
+        
+        html_nodes(house_webpage,"#control_breadcrumbs > ul > li:nth-child(5) > span > a > span") %>% 
+          html_text(.) %>% 
+          check_empty(.) %>% 
+          {.} -> area_of_city
+        
         
         list_functions <- list(
           "YearBuilt"     = function(k,l){
@@ -233,8 +260,8 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
               remove_html_junk(.) %>% 
               check_empty(.) %>% 
               {.} -> postal_code
-              postal_code_length <- length(postal_code)
-              postal_code <<- postal_code[[postal_code_length]]  
+            postal_code_length <- length(postal_code)
+            postal_code <<- postal_code[[postal_code_length]]  
           },
           "DateAdded"     = function(k,l){
             html_nodes(house_webpage,paste("#details_info > div:nth-child(",k,") > div > dl:nth-child(",l,") > dd", sep ="")) %>% 
@@ -245,19 +272,10 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
           }
         )
         
-        html_nodes(house_webpage,"#details > div:nth-child(3) > div.description-full-cnt > div") %>% 
-          html_text(.) %>% 
-          check_empty(.) %>% 
-          {.} -> description
-        
-        html_nodes(house_webpage,"#control_breadcrumbs > ul > li:nth-child(5) > span > a > span") %>% 
-          html_text(.) %>% 
-          check_empty(.) %>% 
-          {.} -> area_of_city
-        
-        for(k in 5:6){
-          for(l in 1:6){
-            html_nodes(house_webpage,paste("#details_info > div:nth-child(",k,") > div > dl:nth-child(",l,") > dt", sep ="")) %>% 
+        for(k in 5:8){
+          for(l in 1:9){
+            #details_info > div:nth-child(7) > div > dl:nth-child(8) > dt
+            html_nodes(house_webpage, paste("#details_info > div:nth-child(",k,") > div > dl:nth-child(",l,") > dt", sep ="")) %>% 
               html_text(.) %>%     
               remove_html_junk(.) %>% 
               check_empty(.) %>% 
@@ -271,26 +289,26 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
             }
           }
         }
-       
-        houses_df <- data.frame(Address = address, Postal_code=postal_code,  Description=description, Price = price, Square_feet = square_feet, Beds = beds, Baths = baths, Date_Added =date_added, Year_built =year_built, Neighbourhood=neighbourhood, Type_of_home=type_of_home, Area_of_city = area_of_city, Lot_info = lot_info, Id_code = id_code, Img_uri = img_uri)
+        houses_df <- data.frame(Address = address, Postal_code=postal_code,  Description=description, Price = price, Square_feet = square_feet, Beds = beds, Baths = baths, Date_Added =date_added, Year_built =year_built, Neighbourhood=neighbourhood, Type_of_home=type_of_home, Area_of_city =area_of_city, Lot_info = lot_info, Id_code = id_code, Img_uri = img_uri)
+      
+        print(houses_df)
+        print(results)
+        
         results <- rbind(results, houses_df)
         stop_time <- Sys.time()
         time_elapsed <- stop_time - start_time
         calc_progress(time_elapsed)
         # print(paste("adding ", address,"---- This took:", time_elapsed, "seconds"))
-        
       } 
     }
-  }
-  if(save == TRUE){
-    write.csv(results[2:nrow(results),], paste("~/Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/",folder_name,"/",folder_name,".csv", sep =""))
   }
   print("")
   print(paste("--------------------------------DONE!--------------------------------"))
   results[2:nrow(results),]
 }
 
-housing_data <- scrape_point2home(1,40, "Calgary", "AB", TRUE)
+housing_data <- scrape_point2home(1,2, "Montreal", "QC", TRUE)
+
 View(housing_data)
 
 
