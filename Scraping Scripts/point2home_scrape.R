@@ -1,23 +1,12 @@
-install_dependencies<- function(){
-  install.packages("RCurl")
-  install.packages("xml2")
-  install.packages("stringr")
-  install.packages("tidyverse")
-  devtools::install_github("r-lib/async")
-  
-}
+#-------------------------------------- Packages--------------------------------------
 
-library('rvest')
-library(xml2)
-library(stringr)
-library(tidyverse)
+dependencies <- c("rvest", "xml2", "stringr", "tidyverse", "new package")
+new.packages <- dependencies[!(dependencies %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages) 
+lapply(dependencies, require, character.only = TRUE)
 
 
-# source http://economicdashboard.alberta.ca/
-
-setwd("../Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/")
-
-# Helper Functions
+#-------------------------------------- Dependent Functions --------------------------------------
 remove_list_non_numbers <- function(data_list) {
   # Loops through and removes context
   for(i in 1:length(data_list)) {
@@ -42,7 +31,7 @@ remove_html_junk        <- function(x, keep_whitespace = FALSE) {
   p
 }
 check_empty             <- function(data) {
-  if(purr::is_empty(data)){
+  if(purrr::is_empty(data)){
     NA
   } else {
     data
@@ -78,21 +67,18 @@ convert_time <- function(time){
 }
 
 scrape_point2home <- function(start_page, end_page, city, short_province, save = TRUE) {
-  
-  
   print(paste("------------------------Finding Housing Data for ",city,"------------------------",sep=""))
   print(" ")
   
   #creates and exmpty dataframe with values to be filled, there may be an easier way to do this
   results <- data.frame(Address = "", Postal_code="",  Description="", Price = "", Square_feet = "", Beds = "", Baths = "", Date_Added ="", Year_built ="", Neighbourhood="", Type_of_home="", Area_of_city = "", Lot_info = "", Id_code = "", Img_uri = "")
-  
-  # creates a folder to save the file, with the date, province and city
-  folder_location <- "~/Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/"
-  folder_name     <- paste(Sys.Date(),"-",city,"-",short_province, sep = "")
+
+  # folder_location <- "~/Google Drive/Courses/Predictive Analytics/Real Estate Scraping in Calgary/"
+  folder_name     <-  paste(Sys.Date(),"-",city,"-",short_province, sep = "")
   
   # DELETE
   # results <- read.csv(paste(folder_name,".csv", sep =""))
-  results <- results[,2:ncol(results)]
+  # results <- results[,2:ncol(results)]
 
     # if(save == TRUE){
   #   dir.create(folder_name)
@@ -122,12 +108,8 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
   # loops through the number of pages in the website, to extract content from each page
   for(j in start_page:end_page) {
     print(paste("Scraping page",j))
-    j <- 1
-    city <- "montreal"
-    short_province <- "QC"
     url <- paste('https://www.point2homes.com/CA/Real-Estate-Listings.html?location=',city,'%2C+',short_province,'&search_mode=location&page=',j,sep="")
-    # url <- paste('https://www.point2homes.com/CA/New-Listings/',short_province,'/',city,'.html?location=', city ,'%2C+',short_province,'&search_mode=location&page=',j,sep="")
-    
+
     webpage <- read_html(url)
     
     # This code searches through the page, and extracts all of the house ID's present.
@@ -290,10 +272,6 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
           }
         }
         houses_df <- data.frame(Address = address, Postal_code=postal_code,  Description=description, Price = price, Square_feet = square_feet, Beds = beds, Baths = baths, Date_Added =date_added, Year_built =year_built, Neighbourhood=neighbourhood, Type_of_home=type_of_home, Area_of_city =area_of_city, Lot_info = lot_info, Id_code = id_code, Img_uri = img_uri)
-      
-        print(houses_df)
-        print(results)
-        
         results <- rbind(results, houses_df)
         stop_time <- Sys.time()
         time_elapsed <- stop_time - start_time
@@ -304,12 +282,25 @@ scrape_point2home <- function(start_page, end_page, city, short_province, save =
   }
   print("")
   print(paste("--------------------------------DONE!--------------------------------"))
+  View(results)
   results[2:nrow(results),]
 }
 
-housing_data <- scrape_point2home(1,2, "Montreal", "QC", TRUE)
+#-------------------------------------- Wrapper to Start--------------------------------------
+# Example call, to find 74 pages for calgary:
+# results <- scrape_point2home(1,20,"calgary","ab")
 
-View(housing_data)
 
-
-# housing_data <- read.csv(file = "Google Drive/Courses/Predictive Analytics/untitled folder/housing_data.csv")
+start <- function(){
+  print("Welcome to the point2home scraper!")
+  Sys.sleep(1)
+  cat ("What province do you want scraped?")
+  province <- readline()
+  cat ("Great, and what city?")
+  city <- readline()
+  print("(press cancel, and run start(), if you made a mistake!)")
+  Sys.sleep(2)
+  print(paste("Perfect. I'll find housing data from point2home for",city,",",province))
+  Sys.sleep(1)
+  housing_data <- scrape_point2home(1,10, city, province, TRUE)
+}
