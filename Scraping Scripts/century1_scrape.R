@@ -1,6 +1,6 @@
 #-------------------------------------- Packages--------------------------------------
 load_dependencies <- function(){
-  dependencies <- c("rvest", "xml2", "stringr", "tidyverse")
+  dependencies <- c("rvest", "xml2", "stringr", "dplyr", "purrr", "magrittr")
   new.packages <- dependencies[!(dependencies %in% installed.packages()[,"Package"])]
   if(length(new.packages)) install.packages(new.packages)
   lapply(dependencies, require, character.only = TRUE)
@@ -68,12 +68,12 @@ scrape_century21 <- function(start_page, end_page, city, short_province, load_fr
   print(paste("------------------------Finding Housing Data for ",city,"------------------------",sep=""))
   print(paste("File will be saved in", getwd()))
   
-  saved_file_location <- "../../c21_2018-03-07-calgary-ab.csv"
+  saved_file_location <- "../../Yelp - Assignment 2/Yelp- R project/century21_2018-03-08-Calgary-ab.csv"
   # empty dataframe for results to be added to.
   if(load_from_file == FALSE){
-    print("Loading saved file")
     results <<- data.frame()
   } else {
+    print("Loading saved file")
     results <<- read.csv(saved_file_location)
   }
   
@@ -84,7 +84,10 @@ scrape_century21 <- function(start_page, end_page, city, short_province, load_fr
   for(j in start_page:end_page) {
     print(paste("Scraping page",j))
     # saves the file in the current directory, every page
-    write.csv(results, paste("c21_",folder_name,".csv", sep =""))
+    write.csv(results, paste("century21_",folder_name,".csv", sep =""))
+    
+    print(results[nrow(results),"Address"])
+    
     
     url <- paste("https://www.century21.ca/search/Q-",city,"/51.353166072449156;-114.66533177400947;50.67147808633015;-113.51176732088447/list_dt~DESC/v_Gallery/page",j,sep="")
     webpage <- read_html(url)
@@ -110,9 +113,7 @@ scrape_century21 <- function(start_page, end_page, city, short_province, load_fr
       new_row <- nrow(results) + 1
       
       house_url <- paste("https://www.century21.ca", pathways[i], sep = "")
-      if(new_row %% 20 == 0){
-        print(house_url)
-      }
+
       # try catch is used, so the program will not stop if there is an error
       get_houseUrl <- tryCatch( house_webpage <<- read_html(house_url), error=function(e){ })
       get_houseUrl
@@ -121,12 +122,18 @@ scrape_century21 <- function(start_page, end_page, city, short_province, load_fr
       html_nodes(house_webpage,"#body-wrapper > div > main > div.main-details-wrap > div > div.main-details-section > div.address > h1") %>% 
         html_text(.) %>% 
         check_empty(.) %>% 
-        {.} -> results[new_row, "Address"]
-      
+        {.} -> address
+        results[new_row, "Address"] <- address
+
       html_nodes(house_webpage,"#body-wrapper > div > main > div.main-details-wrap > div > div.main-details-section > div.address > h2") %>% 
         html_text(.) %>% 
         check_empty(.) %>% 
-        {.} -> results[new_row, "Postal_code"]
+        {.} -> postal_code
+        results[new_row, "Postal_code"] <- postal_code
+        
+      if(is.na(postal_code) == TRUE || is.na(address) == TRUE){
+        break
+      }
       
       html_nodes(house_webpage, paste("#body-wrapper > div > main > div.main-details-wrap > div > div.main-details-section > div.price > h4", sep="")) %>% 
         html_text(.) %>% 
@@ -234,20 +241,20 @@ scrape_century21 <- function(start_page, end_page, city, short_province, load_fr
 #-------------------------------------- Wrapper to Start--------------------------------------
 
 # Example call, to find 74 pages for calgary:
-  # results <- scrape_century21(2,74,"calgary","ab", TRUE)
+ # results <- scrape_century21(2,74,"Calgary","ab", FALSE)
+
+# still gives werid results for montreal, qc...
 
 # a wrapper to give a "ui" to the program
-
 start <- function(){
   print("Welcome to the Century 21 web-scraper!")
-  Sys.sleep(1)
+  Sys.sleep(3)
   cat ("What province do you want scraped?")
   province <- readline()
   cat ("Great, and what city?")
   city <- readline()
-  print("(press cancel, and run start(), if you made a mistake!)")
-  Sys.sleep(2)
   print(paste("Perfect. I'll find housing data from Century 21 for",city,",",province))
-  Sys.sleep(1)
-  housing_data <- scrape_point2home(1,10, city, province, TRUE)
+  print("Press cancel, and run start() again, if you made a mistake!")
+  Sys.sleep(3)
+  housing_data <- scrape_century21(1,10, city, province, FALSE)
 }
